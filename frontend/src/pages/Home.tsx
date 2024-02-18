@@ -52,7 +52,7 @@ const Home = () => {
                   <td>{index + 1}</td>
                   <td>{book.title}</td>
                   <td>{book.author}</td>
-                  <td>{book.publishedYear}</td>
+                  <td>{book.publishYear}</td>
                   <td>
                     <div className="flex justify-center gap-x-4">
                       <Link to={`/books/details/${book._id}`}>
